@@ -29,5 +29,15 @@ namespace TollerStart
         {
             MessageBox.Show("Hello World!!");
         }
+
+        private void Button_Click1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Explosion!");
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
