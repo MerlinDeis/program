@@ -37,7 +37,27 @@ namespace TollerStart
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("what if what if.");
+        }
+
+        private void TextBlock_GiveFeedback(object sender, GiveFeedbackEventArgs e)
+        {
 
         }
+    }
+
+    public class Customer
+    {
+        private string _CustomerName;
+
+        public string CustomerName ;
+
+        private double _Amount;
+
+        public double Amount;
+
+        private string _Married;
+
+        public string Married;
     }
 }

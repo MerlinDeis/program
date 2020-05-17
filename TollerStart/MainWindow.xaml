@@ -10,6 +10,7 @@
         <Button Content="Button" HorizontalAlignment="Center" Margin="5" VerticalAlignment="Center"
                 Click="Button_Click"/>
         <Button Content="Test1" HorizontalAlignment="Right" Margin="10" VerticalAlignment="Bottom"
-                Click="Button_Click1"/>
+                Click="Button_Click_1" ContentElement.GiveFeedback="TextBlock_GiveFeedback"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5" VerticalAlignment="Center"> "Test2" </TextBlock>
     </Grid>
 </Window>
